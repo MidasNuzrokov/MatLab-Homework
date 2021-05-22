@@ -42,7 +42,7 @@ end
                 F(i, j) = F(i, j) + Q(q)/R(q) 
             else
                 F(i, j) = F(i, j) + ...
-                    Q(qq)/norm([X(i, j); Y(i, j); 0] - r(:, q))               
+                    Q(q)/norm([X(i, j); Y(i, j); 0] - r(:, q))               
                         
             end
                 end
